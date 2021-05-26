@@ -1,0 +1,277 @@
+/*
+Media queries
+Grid ccs
+*/
+
+body
+{
+    width: 1080px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 5px 2px 100px #b9c9c7;
+}
+
+#BorderUp
+{
+    background-color: #b9c9c7;
+
+    padding: 5%;
+    padding-top: 6%;
+
+    margin-bottom: 5%;
+}
+
+#Avatar
+{
+    text-align: center;
+}
+
+div img
+{
+    position: relative;
+    top: -15%;
+    border-radius: 100%;
+    width: 40%;
+    margin-right: 20%;
+}
+
+#title
+{
+    width: 70%;
+    height: 25%;
+    margin-left: 15%;
+    padding-bottom: 1%;
+    background-color: white;
+    border: 4mm ridge rgba(129, 168, 150, 0.6);
+    border: double thick black;
+    text-align: center;
+}
+
+#title h1
+{
+    padding-top: 1%;
+    margin-bottom: 1%;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    color: #444440;
+}
+
+#title h2
+{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Open Sans';
+    font-style: italic;
+    color: #444440;
+}
+
+#ProfilText
+{
+    width: 50%;
+    padding: 1%;
+    margin-left: 5%;
+}
+
+h1
+{
+    letter-spacing: 0.25em;
+}
+
+h2
+{
+    letter-spacing: 0.25em;
+    opacity: 0.65;
+}
+
+h3
+{
+    font-family: 'Open Sans';
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+
+#FirstTitle
+{
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-between;
+
+    letter-spacing: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+}
+
+#FirstText
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#FirstText p, #FirstText li
+{
+    font-family: 'Open Sans';
+    color: #444440;
+}
+
+#FirstText p
+{
+    padding-left: 2%;
+}
+
+#SecondText
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+
+#Exp ul li
+{
+    padding-bottom: 8%;
+}
+
+#Cont ul li
+{
+    list-style: none;
+    padding-bottom: 8%;
+}
+
+#FormationText
+{
+    width: 25%;
+    margin-left: 5%;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Open Sans';
+    font-style: italic;
+    color: #444440;
+}
+
+#ExpertiseText
+{
+    position: relative;
+    margin-right: 5%;
+    line-height: 150%;
+    left: -5%;
+}
+
+#QualificationText
+{
+    position: relative;
+    margin-left: 10%;
+    line-height: 150%;
+    left: -8%;
+}
+
+#SecondText section ul li
+{
+    padding: 4%;
+}
+
+#Lang
+{
+    padding-right: 12%;
+    line-height: 40px;
+}
+
+#SecondTitle .AlignBar, #ThirdTitle .AlignBar
+{
+    border-top: 3px solid #444440;
+    margin : 6% 6% 0% 6%;
+}
+
+#SecondTitle #SecondTitleText, #ThirdTitle #ThirdTitleText
+{
+    position: relative;
+    top: -45px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+#ThirdText
+{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+
+.WhiteBox
+{
+    border: 2px solid black;
+    background-color: white;
+    width: 20%;
+    text-align: center;
+}
+
+.BeigeBox
+{
+    border: 1px solid #f1dec8;
+    background-color: #f1dec8;
+    width: 25%;
+    text-align: center;
+}
+
+#Contact
+{
+    position: relative;
+    top: 10%;
+}
+
+#Exp
+{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Open Sans';
+    font-style: italic;
+    color: #444440;
+    width: 30%;
+}
+
+#Cont
+{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    font-style: italic;
+    color: #444440;
+    width: 30%;
+    line-height: 200%;
+}
+
+#BorderBottom
+{
+    border: 1px solid #f1dec8;
+    background-color: #f1dec8;
+    height: 125px;
+}
+
+#BorderWhiteBottom
+{
+    background-color: white;
+    height: 25px;
+}
+
+@media (min-width:2000px)
+{
+    body
+    {
+        width: 50%;
+    }
+
+    #ProfilText
+    {
+        width: 25%;
+        padding: 1%;
+        margin-left: 5%;
+    }
+
+    #QualificationText
+    {
+        margin-left: 0%;
+    }
+}

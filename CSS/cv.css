@@ -256,6 +256,12 @@ h3
     height: 25px;
 }
 
+a
+{
+    color: #444440;
+    text-decoration: none;
+}
+
 @media (min-width:2000px)
 {
     body

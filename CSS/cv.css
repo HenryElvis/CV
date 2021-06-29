@@ -281,3 +281,14 @@ a
         margin-left: 0%;
     }
 }
+
+@media (min-width:1000px)
+{
+    body
+    {
+        border: black 1px dashed;
+        width: 1080px;
+        margin: auto;
+        background-color: white;
+    }
+}

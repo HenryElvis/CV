@@ -33,6 +33,7 @@ div img
     border-radius: 100%;
     width: 40%;
     margin-right: 20%;
+    filter: drop-shadow(0 0 0.75rem #b9c9c7);
 }
 
 #title
@@ -282,13 +283,11 @@ a
     }
 }
 
-@media (min-width:1000px)
+@media (max-width:1500px)
 {
     body
     {
         border: black 1px dashed;
-        width: 1080px;
-        margin: auto;
-        background-color: white;
+        box-shadow: 5px 2px 100px #b9c9c7;
     }
 }

@@ -207,6 +207,7 @@ h3
     background-color: white;
     width: 20%;
     text-align: center;
+    filter: drop-shadow(0 0 0.15rem black);
 }
 
 .BeigeBox
@@ -215,6 +216,7 @@ h3
     background-color: #f1dec8;
     width: 25%;
     text-align: center;
+    filter: drop-shadow(0 0 0.75rem #f1dec8);
 }
 
 #Contact

@@ -269,6 +269,29 @@ a
     text-decoration: none;
 }
 
+@media (min-width:2500px)
+{
+    body
+    {
+        width: 50%;
+    }
+
+    div img
+    {
+        width: 50%;
+        height: 70%;
+        border-radius: 100%;
+        margin-left: -10%;
+    }
+
+    #ProfilText
+    {
+        width: 100%;
+        padding: 1%;
+        margin-left: 5%;
+    }
+}
+
 @media (min-width:2000px)
 {
     body
@@ -276,9 +299,16 @@ a
         width: 50%;
     }
 
+    div img
+    {
+        width: 50%;
+        height: 70%;
+        border-radius: 100%;
+        margin-left: -10%;
+    }
+
     #ProfilText
     {
-        width: 25%;
         padding: 1%;
         margin-left: 5%;
     }
